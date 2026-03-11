@@ -1,0 +1,431 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -6,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorLaying",
+      "rotation": 1
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -3,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorLaying",
+      "rotation": 1
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -7,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -5,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -7,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -6,
+      "name": "Plant_Bramble_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -5,
+      "name": "Plant_Bramble_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapSwordLaying",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapArmorSitting",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -5,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 4,
+      "name": "Plant_Bramble_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapArmorLaying",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -5,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -4,
+      "name": "Plant_Bramble_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapArmorLaying",
+      "rotation": 1
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapSwordLaying",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapSwordLaying",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bush_Dead_Twisted",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapSwordLaying",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapArmorSitting",
+      "rotation": 1
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -3,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapSwordUpright",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -4,
+      "name": "ScrapArmorHelm",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -3,
+      "name": "ScrapSwordLaying",
+      "rotation": 1
+    }
+  ],
+  "fluids": [
+    {
+      "x": -6,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -7,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -7,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -6,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Group": "LadyPaladra",
+  "Name": "TheBattleground",
+  "Version": "0.1.1",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "LadyPaladra",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

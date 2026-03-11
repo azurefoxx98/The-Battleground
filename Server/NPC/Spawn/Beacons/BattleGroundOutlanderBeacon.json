@@ -1,0 +1,19 @@
+{
+  "NPCs": [
+    {
+      "Id": "Outlander_Hunter",
+      "Weight": 0.001,
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Outlander_Marauder",
+      "Weight": 0.001,
+      "Flock": "Group_Tiny"
+    }
+  ],
+  "Environments": [
+    "BattlegroundEnviro"
+  ],
+  "TargetDistanceFromPlayer": 80,
+  "MinDistanceFromPlayer": 30
+}

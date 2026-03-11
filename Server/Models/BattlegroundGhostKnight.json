@@ -1,0 +1,77 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "Items/Armors/Knight/ghost_test.png",
+  "EyeHeight": 1.5,
+  "Particles": [
+    {
+      "SystemId": "Praetorian_Summon_Spawn",
+      "Color": "#27f8bc"
+    }
+  ],
+  "Model": "Items/Armors/Knight/ghost_test.blockymodel",
+  "Icon": "Icons/ModelsGenerated/BattlegroundGhostKnight.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -75
+    ]
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Weapons/Ghost/ghost_sword.blockymodel",
+      "Texture": "Items/Weapons/Ghost/ghost_sword.png"
+    }
+  ],
+  "Light": {
+    "Color": "#175",
+    "Radius": 3
+  },
+  "AnimationSets": {
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Fly/Fly.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Fly/Fly_Idle.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "GhostAmbient"
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Fly/Fly_Fast.blockyanim",
+          "Speed": 1.1
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Fly/Fly_Fast.blockyanim"
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "SoundEventId": "GhostAlert",
+          "Animation": "NPC/Undead/Skeleton/Animations/Default/Alerted.blockyanim"
+        }
+      ]
+    }
+  }
+}

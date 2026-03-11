@@ -1,0 +1,68 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/GhostAlert.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": -2,
+        "MaxVolume": 0,
+        "MinPitch": -1,
+        "MaxPitch": 1
+      },
+      "Probability": 70,
+      "StartDelay": 0.1,
+      "Volume": -22.12,
+      "Looping": true,
+      "ProbabilityRerollDelay": 5
+    },
+    {
+      "Probability": 3,
+      "Files": [
+        "Sounds/Ghost_Where_Is_Amulet.ogg"
+      ],
+      "Volume": -13.76,
+      "ProbabilityRerollDelay": 60
+    },
+    {
+      "Probability": 3,
+      "Files": [
+        "Sounds/Gaia_Preserve.ogg"
+      ],
+      "Volume": -13.76,
+      "ProbabilityRerollDelay": 60
+    },
+    {
+      "Probability": 3,
+      "Files": [
+        "Sounds/You_Thief_Male.ogg"
+      ],
+      "Volume": -13.76,
+      "ProbabilityRerollDelay": 60
+    },
+    {
+      "Probability": 3,
+      "Files": [
+        "Sounds/You_Thief.ogg"
+      ],
+      "Volume": -13.76,
+      "ProbabilityRerollDelay": 60
+    },
+    {
+      "Probability": 3,
+      "Files": [
+        "Sounds/Its_Gone.ogg"
+      ],
+      "Volume": -13.76,
+      "ProbabilityRerollDelay": 60
+    }
+  ],
+  "Volume": 10,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Skeleton",
+  "Parent": "SFX_Attn_Moderate",
+  "MaxDistance": 2,
+  "Pitch": 0,
+  "MaxInstance": 3,
+  "StartAttenuationDistance": 0
+}

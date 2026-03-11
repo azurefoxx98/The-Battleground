@@ -1,0 +1,56 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Weight": 5,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "GhostSword",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 5,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "RookBootsGhost",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 5,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "RookChestGhost",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Weight": 5,
+            "Type": "Single",
+            "Item": {
+              "ItemId": "RookGauntletsGhost",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "RookHelmGhost"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

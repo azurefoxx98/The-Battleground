@@ -1,0 +1,28 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "Items/Armors/Knight/rusty.png",
+  "EyeHeight": 1.5,
+  "Particles": [
+    {
+      "SystemId": "Praetorian_Summon_Spawn",
+      "Color": "#27f8bc"
+    }
+  ],
+  "Model": "Items/Armors/Knight/animated_armor.blockymodel",
+  "Icon": "Icons/ModelsGenerated/BattlegroundAnimatedArmor.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -75
+    ]
+  },
+  "DefaultAttachments": [
+    {}
+  ]
+}

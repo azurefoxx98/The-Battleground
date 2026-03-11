@@ -1,0 +1,1025 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorLaying",
+      "filler": 992
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapArmorLaying"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapArmorLaying",
+      "filler": 32
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapArmorHelm"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorLaying",
+      "filler": 993
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapArmorLaying",
+      "filler": 1
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapArmorLaying",
+      "filler": 33
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "ScrapArmorSitting"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "name": "ScrapArmorSitting",
+      "filler": 1024
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "name": "ScrapArmorLaying",
+      "filler": 1023
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorLaying",
+      "filler": 31
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorLaying",
+      "filler": 63
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 4,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "ScrapArmorLaying",
+      "filler": 992
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorLaying"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorLaying",
+      "filler": 32
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Deadwood_Fence"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "CYI+Hb8YT/+7KgzW4dHdLQ==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Zone4_Undead_Tier1"
+          }
+        }
+      }
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapSwordUpright"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -4,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -4,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -3,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -3,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "ScrapArmorLaying",
+      "filler": 993
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorLaying",
+      "filler": 1
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorLaying",
+      "filler": 33
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": 1,
+      "name": "Furniture_Ancient_Crate"
+    },
+    {
+      "x": -1,
+      "y": 6,
+      "z": 1,
+      "name": "Wood_Deadwood_Beam"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapArmorSitting"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "name": "ScrapArmorSitting",
+      "filler": 1024
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 5,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -1,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Deadwood_Fence"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 3
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "CYI+Hb8YT/+7KgzW4dHdLQ==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Zone4_Undead_Tier1"
+          }
+        }
+      },
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "Furniture_Ancient_Crate",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "Deco_Bone_Skulls"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorSitting"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "ScrapArmorSitting",
+      "filler": 1024
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapArmorHelm"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "CYI+Hb8YT/+7KgzW4dHdLQ==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Zone4_Undead_Tier1"
+          }
+        }
+      }
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorHelm"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Deco_Bone_Skulls"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapSwordUpright"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 5,
+      "name": "Plant_Bush_Dead",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 5,
+      "name": "Plant_Bush_Dead",
+      "filler": 1024
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 5,
+      "name": "ScrapArmorHelm"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "name": "Plant_Bramble_Dead_Lavathorn"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorHelm"
+    }
+  ],
+  "fluids": [
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 6,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 5,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

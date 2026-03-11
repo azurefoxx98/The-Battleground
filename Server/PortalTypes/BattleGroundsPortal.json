@@ -1,0 +1,9 @@
+{
+  "InstanceId": "AncientBattlegrounds",
+  "Description": {
+    "FlavorText": "Recall the aftermath of the battle that occurred here.",
+    "DisplayName": "Ancient BattleGrounds",
+    "SplashImage": "BattleGrounds.png",
+    "ThemeColor": "#fdbb9d"
+  }
+}

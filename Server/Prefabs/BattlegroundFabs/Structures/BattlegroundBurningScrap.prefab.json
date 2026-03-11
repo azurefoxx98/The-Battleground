@@ -1,0 +1,534 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "DecorativeScrapSmall",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapSwordLaying"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorPile",
+      "rotation": 3
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -1,
+      "name": "ScrapArmorPile",
+      "filler": 1024,
+      "rotation": 3
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorPile"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "ScrapArmorPile",
+      "filler": 1024
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -3,
+      "name": "DecorativeScrapSmall",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "ScrapSwordUpright",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Poisoned"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "ScrapArmorPile",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "name": "ScrapArmorPile",
+      "filler": 1024,
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "ScrapSwordUpright",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "ScrapArmorPile",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -2,
+      "name": "ScrapArmorPile",
+      "filler": 1024,
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapArmorSitting",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "ScrapArmorSitting",
+      "filler": 1024,
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapArmorSitting",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "ScrapArmorSitting",
+      "filler": 1024,
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapArmorPile",
+      "rotation": 1
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "name": "ScrapArmorPile",
+      "filler": 1024,
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "ScrapArmorPile",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "ScrapArmorPile",
+      "filler": 1024,
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "ScrapSwordUpright",
+      "rotation": 3
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "ScrapSwordLaying",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Deco_Fire"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "ScrapSwordLaying",
+      "rotation": 3
+    }
+  ],
+  "fluids": [
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

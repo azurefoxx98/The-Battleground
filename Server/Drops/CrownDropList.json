@@ -1,0 +1,29 @@
+{
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "PortalKeyBattleGrounds"
+        },
+        "Weight": 30
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "TarnishedCrown"
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_Bar_Mithril",
+          "QuantityMin": 2,
+          "QuantityMax": 4
+        }
+      }
+    ],
+    "RollsMax": 2
+  }
+}

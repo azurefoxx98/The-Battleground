@@ -1,0 +1,11 @@
+{
+  "NPCs": [
+    {
+      "Id": "BattlegroundGhostKnightNPC",
+      "Weight": 0.5
+    }
+  ],
+  "Environments": [
+    "BattlegroundEnviro"
+  ]
+}
