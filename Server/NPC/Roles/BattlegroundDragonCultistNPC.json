@@ -2,23 +2,38 @@
   "Type": "Variant",
   "Reference": "Template_Intelligent",
   "Modify": {
-    "MaxHealth": 160,
+    "MaxHealth": 92,
     "HearingRange": 8,
     "ViewSector": 270,
-    "WakingPeriod": [ 0, 24 ],
-    "DropList": "GhostDrops",
-    "Appearance": "BattlegroundGhostKnight",
-    "Weapons": [ "GhostSword" ],
-    "OffHand": [ ],
+    "WakingPeriod": [
+      0,
+      12
+    ],
+    "DropList": "",
+    "Appearance": "BattlegroundDragonCultist",
+    "Weapons": [
+      "Weapon_Sword_Scrap"
+    ],
+    "OffHand": [
+      "Weapon_Shield_Iron"
+    ],
     "AttackDistance": 2,
     "TargetRange": 2,
-    "DesiredAttackDistanceRange": [ 1, 1.6 ],
+    "DesiredAttackDistanceRange": [
+      1,
+      1.6
+    ],
     "CombatBehaviorDistance": 3,
     "CombatStrafeWeight": 5,
-    "CombatBackOffDistanceRange": [ 1, 2 ],
+    "CombatBackOffDistanceRange": [
+      1,
+      2
+    ],
     "BlockProbability": 50,
     "BreathesInWater": true,
-    "NameTranslationKey": { "Compute": "NameTranslationKey" }
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
   },
   "Parameters": {
     "NameTranslationKey": {

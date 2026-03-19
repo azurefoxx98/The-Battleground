@@ -45,14 +45,18 @@
           },
           {
             "Type": "Single",
-            "Weight": 5,
+            "Weight": 1,
             "Item": {
               "ItemId": "Weapon_Longsword_Praetorian",
-              "QuantityMin": 2,
-              "QuantityMax": 4
+              "QuantityMin": 1,
+              "QuantityMax": 1
             }
           }
         ]
+      },
+      {
+        "Type": "Droplist",
+        "DroplistId": "Zone4_Encounters_Tier4"
       }
     ]
   }

@@ -1,0 +1,41 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "NPC/DragonCultists/WyrmKnight/test.png",
+  "EyeHeight": 2,
+  "Particles": [
+    {
+      "SystemId": "Praetorian_Summon_Spawn",
+      "Color": "#27f8bc"
+    }
+  ],
+  "Model": "NPC/DragonCultists/WyrmKnight/WyrmKnight.blockymodel",
+  "Icon": "Icons/ModelsGenerated/WyrmKnight.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      1,
+      -92
+    ]
+  },
+  "PhysicsValues": {
+    "Mass": 6,
+    "DragCoefficient": 3
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/DragonCultists/WyrmKnight/Animations/idle.blockyanim"
+        }
+      ]
+    }
+  },
+  "DefaultAttachments": [
+    {}
+  ]
+}

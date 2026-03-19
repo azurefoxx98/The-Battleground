@@ -1,0 +1,16 @@
+{
+  "NPCs": [
+    {
+      "Id": "BattlegroundDragonCultistNPC",
+      "Weight": 0.1,
+      "Flock": "Group_Small"
+    },
+    {
+      "Id": "BattlegroundDragonPriestNPC",
+      "Weight": 0.1
+    }
+  ],
+  "Environments": [
+    "BattlegroundEnviro"
+  ]
+}

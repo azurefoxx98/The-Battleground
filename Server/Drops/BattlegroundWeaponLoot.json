@@ -1,0 +1,94 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Weapon_Arrow_Crude",
+              "QuantityMin": 1,
+              "QuantityMax": 10
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Axe_Iron",
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Axe_Iron_Rusty"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Steel_Rusty"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Battleaxe_Iron"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Club_Iron_Rusty"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Club_Steel_Flail_Rusty"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Club_Iron"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Crossbow_Ancient_Steel"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Daggers_Iron"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Mace_Iron"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Spear_Iron"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Droplist",
+        "DroplistId": "BattlegroundScrapLoot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Parent": "Goblin",
+  "Texture": "Items/Armors/DragonKnight/WoodBlue.png",
+  "EyeHeight": 1.5,
+  "Model": "Items/Armors/DragonKnight/Full.blockymodel",
+  "Icon": "Icons/ModelsGenerated/BattlegroundDragonCultist.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -75
+    ]
+  },
+  "AnimationSets": {
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Goblin/Animations/Default/Walk.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Goblin/Animations/Default/Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Default/Run.blockyanim",
+          "Speed": 1.1
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bramblekin/Animations/Default/Run.blockyanim"
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Skeleton/Animations/Default/Alerted.blockyanim"
+        }
+      ]
+    }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Armors/Priest/Arms.blockymodel",
+      "Texture": "Items/Armors/Priest/PriestBlue.png"
+    },
+    {
+      "Model": "Items/Armors/Priest/Legs.blockymodel",
+      "Texture": "Items/Armors/Priest/PriestBlue.png"
+    }
+  ]
+}
