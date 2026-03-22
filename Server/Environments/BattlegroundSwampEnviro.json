@@ -1,0 +1,149 @@
+{
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "BattlegroundsSwamp",
+        "Weight": 100
+      }
+    ]
+  },
+  "WaterTint": "#373a15"
+}

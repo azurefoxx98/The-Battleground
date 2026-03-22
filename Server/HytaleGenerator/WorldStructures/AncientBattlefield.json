@@ -1,11 +1,16 @@
 {
   "Type": "NoiseRange",
   "DefaultBiome": "AncientBattlefieldBiome",
-  "DefaultTransitionDistance": 32,
-  "MaxBiomeEdgeDistance": 32,
+  "DefaultTransitionDistance": 4,
+  "MaxBiomeEdgeDistance": 4,
   "Density": {
     "Type": "Imported",
-    "Name": "Biome-Map"
+    "Name": "Biome-Map",
+    "Inputs": [
+      {
+        "Type": "SimplexNoise2D"
+      }
+    ]
   },
   "SpawnPositions": {
     "Type": "Imported",
@@ -57,6 +62,23 @@
           "Value": 0
         }
       ]
+    }
+  ],
+  "Biomes": [
+    {
+      "Biome": "AncientBattlefieldBiomeSwamp",
+      "Min": 0.1,
+      "Max": 1
+    },
+    {
+      "Biome": "AncientBattlefieldBiomeFlat",
+      "Min": -0.3,
+      "Max": 0.097
+    },
+    {
+      "Min": 0.098,
+      "Max": 0.099,
+      "Biome": "SwampTransition"
     }
   ]
 }

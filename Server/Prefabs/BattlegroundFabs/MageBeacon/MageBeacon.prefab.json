@@ -2,7 +2,7 @@
   "version": 8,
   "blockIdVersion": 11,
   "anchorX": 0,
-  "anchorY": 0,
+  "anchorY": -10,
   "anchorZ": 0,
   "blocks": [
     {
