@@ -12,10 +12,11 @@
   ],
   "Website": "",
   "ServerVersion": "2026.02.19-1a311a592",
-  "Dependencies": {"LadyPaladra:TheArmory": "^0.11.0"},
-  "OptionalDependencies": {},
+  "Dependencies": {},
+  "OptionalDependencies": {"LadyPaladra:TheArmory": "^0.11.0"},
   "LoadBefore": {},
   "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "SubPlugins": []
+  "IncludesAssetPack": true,
+  "SubPlugins": [],
+  "Main": "${plugin_main_entrypoint}"
 }
