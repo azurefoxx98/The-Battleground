@@ -1,0 +1,23 @@
+{
+  "Group": "LadyPaladra",
+  "Name": "TheBattleground",
+  "Version": "0.3.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "LadyPaladra",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {
+    "LadyPaladra:TheArmory": ">=0.11.0 || <0.12.0"
+  },
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

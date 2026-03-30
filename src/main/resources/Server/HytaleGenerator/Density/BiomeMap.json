@@ -1,0 +1,91 @@
+{
+	"$NodeId":	"Exported.Density-28a8a5b8-86cb-454d-ade2-502d249887b8",
+	"Type":	"Exported",
+	"ExportAs":	"BiomeMap",
+	"SingleInstance":	false,
+	"Skip":	false,
+	"Inputs":	[{
+			"$NodeId":	"SumDensityNode-1f7ac215-d80a-41b1-987b-cfef6140181c",
+			"Type":	"Sum",
+			"Skip":	false,
+			"Inputs":	[{
+					"$NodeId":	"VectorWarp.Density-5394838a-697c-45fc-bbda-bea14ef44429",
+					"Type":	"VectorWarp",
+					"Skip":	false,
+					"WarpFactor":	5,
+					"WarpVector":	{
+						"$NodeId":	"Point3D-df122850-9dd6-461b-94e0-ef80f6bd813a",
+						"X":	15,
+						"Y":	50,
+						"Z":	15
+					},
+					"Inputs":	[{
+							"$NodeId":	"CellNoise2DDensityNode-485193d4-4a0c-4418-9456-198df5fae159",
+							"Type":	"CellNoise2D",
+							"Skip":	false,
+							"ScaleX":	600,
+							"ScaleZ":	600,
+							"Jitter":	0.3,
+							"CellType":	"Distance2Div",
+							"Octaves":	7,
+							"Seed":	"A"
+						}]
+				}, {
+					"$NodeId":	"SimplexNoise2DDensityNode-b32a59a0-d830-4eae-9694-0fc17c2403cc",
+					"Type":	"SimplexNoise2D",
+					"Skip":	false,
+					"Lacunarity":	2,
+					"Persistence":	0.5,
+					"Octaves":	3,
+					"Scale":	300,
+					"Seed":	"A"
+				}]
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Exported.Density-28a8a5b8-86cb-454d-ade2-502d249887b8":	{
+				"$Position":	{
+					"$x":	-3629,
+					"$y":	-4635
+				},
+				"$Title":	"[ROOT] [EXPERIMENTAL] Exported Density"
+			},
+			"VectorWarp.Density-5394838a-697c-45fc-bbda-bea14ef44429":	{
+				"$Position":	{
+					"$x":	-2667,
+					"$y":	-4940
+				}
+			},
+			"Point3D-df122850-9dd6-461b-94e0-ef80f6bd813a":	{
+				"$Position":	{
+					"$x":	-1916,
+					"$y":	-4730
+				}
+			},
+			"CellNoise2DDensityNode-485193d4-4a0c-4418-9456-198df5fae159":	{
+				"$Position":	{
+					"$x":	-1844,
+					"$y":	-5132
+				}
+			},
+			"SumDensityNode-1f7ac215-d80a-41b1-987b-cfef6140181c":	{
+				"$Position":	{
+					"$x":	-2963,
+					"$y":	-4609
+				}
+			},
+			"SimplexNoise2DDensityNode-b32a59a0-d830-4eae-9694-0fc17c2403cc":	{
+				"$Position":	{
+					"$x":	-2222,
+					"$y":	-4301
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Biome"
+	}
+}

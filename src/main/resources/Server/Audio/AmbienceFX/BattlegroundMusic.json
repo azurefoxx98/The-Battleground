@@ -1,0 +1,16 @@
+{
+  "Music": {
+    "Tracks": [
+      "Music/PhilRey_EternalOblivion.ogg"
+    ],
+    "Volume": 0
+  },
+  "AudioCategory": "AudioCat_Music",
+  "Priority": 70,
+  "Conditions": {
+    "EnvironmentIds": [
+      "BattlegroundEnviro",
+      "BattlegroundSwampEnviro"
+    ]
+  }
+}

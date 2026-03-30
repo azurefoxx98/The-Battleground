@@ -30,7 +30,7 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "NPC/DragonCultists/WyrmKnight/Animations/idle.blockyanim"
+          "Animation": "NPC/DragonCultists/WyrmKnight/Animations/Idle.blockyanim"
         }
       ]
     }

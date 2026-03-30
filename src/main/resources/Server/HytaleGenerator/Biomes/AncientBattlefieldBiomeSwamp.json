@@ -336,7 +336,7 @@
 			"Type":	"SimpleHorizontal",
 			"TopY":	80,
 			"TopBaseHeight":	"Base",
-			"BottomY":	0,
+			"BottomY":	-100,
 			"BottomBaseHeight":	"Base",
 			"Material":	{
 				"$NodeId":	"ConstantMaterialProvider-bca1f2bb-202b-4ca4-8a31-c3275a0ab1c6",
@@ -436,81 +436,63 @@
 				}
 			}
 		}, {
-			"$NodeId":	"Runtime-db039f1e-e7a4-4838-87e3-3caee10ca725",
+			"$NodeId":	"Runtime-32784e2c-1dfb-4199-8027-62ec08a929e1",
 			"Skip":	false,
-			"Runtime":	1,
-			"Positions":	{
-				"$NodeId":	"Mesh2DPositions-f02dbb15-9cee-4396-87f7-5d5155711265",
-				"Type":	"Mesh2D",
-				"Skip":	false,
-				"PointsY":	0,
-				"PointGenerator":	{
-					"$NodeId":	"MeshPointGenerator-4e6aab4d-e0fb-45d4-adbd-e890207f736d",
-					"Type":	"Mesh",
-					"Jitter":	0,
-					"ScaleX":	122,
-					"ScaleY":	2,
-					"ScaleZ":	800,
-					"Seed":	"A"
-				}
-			},
-			"Assignments":	{
-				"$NodeId":	"Constant.Assignments-319632a0-5234-4a7d-af6c-d5beac4cd058",
-				"Type":	"Constant",
-				"Prop":	{
-					"$NodeId":	"Prefab.Prop-20ad60bb-7e2d-499c-99fa-3eae7435f0e5",
-					"Type":	"Prefab",
-					"Skip":	false,
-					"WeightedPrefabPaths":	[{
-							"$NodeId":	"WeightedPath.Prefab.Prop-b6d01d9c-41c9-442c-8c9a-69339e10311e",
-							"Path":	"BattlegroundFabs\\TheWall",
-							"Weight":	1
-						}],
-					"LegacyPath":	false,
-					"LoadEntities":	true,
-					"Directionality":	{
-						"$NodeId":	"Static.Directionality-05bcfa86-d5e2-44d7-bb6f-21240963dd74",
-						"Type":	"Static",
-						"Rotation":	0,
-						"Pattern":	{
-							"$NodeId":	"Floor.Pattern-bf4851ed-e1ba-465d-94d1-66780c810157",
-							"Type":	"Floor",
+			"Runtime":	0,
+			"PropDistribution":	{
+				"$NodeId":	"Assigned.PropDistribution-e2d53600-aa73-4bbb-b206-9d87174ebc8a",
+				"Type":	"Assigned",
+				"PropDistribution":	{
+					"$NodeId":	"Positions.PropDistribution-a89a3522-b5fe-44c7-8c26-978de93ead27",
+					"Type":	"Positions",
+					"Positions":	{
+						"$NodeId":	"OffsetPositions-c752215e-82eb-48ad-8818-5b2f8957a517",
+						"Type":	"Offset",
+						"Skip":	false,
+						"OffsetX":	0,
+						"OffsetY":	0,
+						"OffsetZ":	0,
+						"Offset":	{
+							"$NodeId":	"Point3D-acf36b2d-e127-4dfb-814c-a6ae588c57f0",
+							"X":	0,
+							"Y":	177,
+							"Z":	0
+						},
+						"Positions":	{
+							"$NodeId":	"Scaler.Positions-579d027f-e9dd-4d63-aed9-15fe45ca0a2e",
+							"Type":	"Scaler",
 							"Skip":	false,
-							"Origin":	{
-								"$NodeId":	"BlockType.Pattern-cfae3a1e-74c3-4d76-b9a5-bc975f5f6087",
-								"Type":	"BlockType",
-								"Skip":	false,
-								"Material":	{
-									"$NodeId":	"Material-f1f3b1ed-eb98-45e6-8e27-972137080a1d",
-									"Solid":	"Empty",
-									"SolidBottomUp":	false
-								}
+							"Scale":	{
+								"$NodeId":	"Point3D-27871406-08c2-4cc8-8274-4a90ed252cd2",
+								"X":	9,
+								"Y":	1,
+								"Z":	800
 							},
-							"Floor":	{
-								"$NodeId":	"BlockType.Pattern-0d56607e-a874-45af-9628-e2e5f5ac485f",
-								"Type":	"BlockType",
-								"Skip":	false,
-								"Material":	{
-									"$NodeId":	"Material-973ac828-de9a-48af-9d59-7bfd9094c7d6",
-									"Solid":	"Soil_Dirt_Poisoned",
-									"SolidBottomUp":	false
-								}
+							"Positions":	{
+								"$NodeId":	"SquareGrid2d.Positions-73961f18-8d4f-46d8-9b2a-be1ccb08235f",
+								"Type":	"SquareGrid2d",
+								"Skip":	false
 							}
 						}
-					},
-					"Scanner":	{
-						"$NodeId":	"ColumnLinear.Scanner-f0296642-8f4e-4ded-830c-a90cd79092f2",
-						"Type":	"ColumnLinear",
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Constant.Assignments-50be8094-c9e0-4391-a7ba-b61d9a488648",
+					"Type":	"Constant",
+					"Prop":	{
+						"$NodeId":	"Prefab.Prop-de43dbf0-7f95-45d1-a587-4997e31421d3",
+						"Type":	"Prefab",
 						"Skip":	false,
-						"MaxY":	100,
-						"MinY":	70,
-						"RelativeToPosition":	false,
-						"BaseHeightName":	"Base",
-						"TopDownOrder":	true,
-						"ResultCap":	1
-					},
-					"MoldingDirection":	"NONE",
-					"MoldingChildren":	false
+						"WeightedPrefabPaths":	[{
+								"$NodeId":	"WeightedPath.Prefab.Prop-b692c896-34ea-4a3f-aca3-9041a765a253",
+								"Path":	"BattlegroundFabs\\Bridge",
+								"Weight":	1
+							}],
+						"LegacyPath":	false,
+						"LoadEntities":	true,
+						"MoldingDirection":	"NONE",
+						"MoldingChildren":	false
+					}
 				}
 			}
 		}, {
@@ -846,8 +828,8 @@
 					"Skip":	false,
 					"WeightedPrefabPaths":	[{
 							"$NodeId":	"WeightedPath.Prefab.Prop-dd85ddec-542b-4c0d-938a-a540ae54a764",
-							"Path":	"BattlegroundFabs/Castles",
-							"Weight":	0.0001
+							"Path":	"BattlegroundFabs/GiantBones",
+							"Weight":	0.001
 						}],
 					"LegacyPath":	false,
 					"LoadEntities":	true,
@@ -1393,82 +1375,70 @@
 					"$y":	-1398
 				}
 			},
-			"Runtime-db039f1e-e7a4-4838-87e3-3caee10ca725":	{
+			"Runtime-32784e2c-1dfb-4199-8027-62ec08a929e1":	{
 				"$Position":	{
-					"$x":	-1849,
-					"$y":	-417
+					"$x":	-1764,
+					"$y":	-268
 				}
 			},
-			"Mesh2DPositions-f02dbb15-9cee-4396-87f7-5d5155711265":	{
+			"Assigned.PropDistribution-e2d53600-aa73-4bbb-b206-9d87174ebc8a":	{
 				"$Position":	{
-					"$x":	-1681,
-					"$y":	-620
+					"$x":	-1775,
+					"$y":	-61
 				}
 			},
-			"MeshPointGenerator-4e6aab4d-e0fb-45d4-adbd-e890207f736d":	{
+			"Positions.PropDistribution-a89a3522-b5fe-44c7-8c26-978de93ead27":	{
 				"$Position":	{
-					"$x":	-980,
-					"$y":	-705
+					"$x":	-1101,
+					"$y":	-249
 				}
 			},
-			"Constant.Assignments-319632a0-5234-4a7d-af6c-d5beac4cd058":	{
+			"OffsetPositions-c752215e-82eb-48ad-8818-5b2f8957a517":	{
 				"$Position":	{
-					"$x":	-1770,
-					"$y":	-197
+					"$x":	-442,
+					"$y":	-345
 				}
 			},
-			"Prefab.Prop-20ad60bb-7e2d-499c-99fa-3eae7435f0e5":	{
+			"Point3D-acf36b2d-e127-4dfb-814c-a6ae588c57f0":	{
 				"$Position":	{
-					"$x":	-1134,
-					"$y":	-203
+					"$x":	211,
+					"$y":	-615
 				}
 			},
-			"WeightedPath.Prefab.Prop-b6d01d9c-41c9-442c-8c9a-69339e10311e":	{
+			"Scaler.Positions-579d027f-e9dd-4d63-aed9-15fe45ca0a2e":	{
 				"$Position":	{
-					"$x":	-421,
-					"$y":	-407
+					"$x":	271,
+					"$y":	-311
 				}
 			},
-			"Static.Directionality-05bcfa86-d5e2-44d7-bb6f-21240963dd74":	{
+			"Point3D-27871406-08c2-4cc8-8274-4a90ed252cd2":	{
 				"$Position":	{
-					"$x":	-371,
-					"$y":	-217
+					"$x":	976,
+					"$y":	-238
 				}
 			},
-			"Floor.Pattern-bf4851ed-e1ba-465d-94d1-66780c810157":	{
+			"SquareGrid2d.Positions-73961f18-8d4f-46d8-9b2a-be1ccb08235f":	{
 				"$Position":	{
-					"$x":	305,
-					"$y":	-223
+					"$x":	937,
+					"$y":	-528
 				}
 			},
-			"BlockType.Pattern-cfae3a1e-74c3-4d76-b9a5-bc975f5f6087":	{
+			"Constant.Assignments-50be8094-c9e0-4391-a7ba-b61d9a488648":	{
 				"$Position":	{
-					"$x":	318,
-					"$y":	30
+					"$x":	-1097,
+					"$y":	154
 				}
 			},
-			"Material-f1f3b1ed-eb98-45e6-8e27-972137080a1d":	{
+			"Prefab.Prop-de43dbf0-7f95-45d1-a587-4997e31421d3":	{
 				"$Position":	{
-					"$x":	941,
-					"$y":	33
+					"$x":	-485,
+					"$y":	-70
 				}
 			},
-			"BlockType.Pattern-0d56607e-a874-45af-9628-e2e5f5ac485f":	{
+			"WeightedPath.Prefab.Prop-b692c896-34ea-4a3f-aca3-9041a765a253":	{
 				"$Position":	{
-					"$x":	347,
-					"$y":	270
-				}
-			},
-			"Material-973ac828-de9a-48af-9d59-7bfd9094c7d6":	{
-				"$Position":	{
-					"$x":	969,
-					"$y":	270
-				}
-			},
-			"ColumnLinear.Scanner-f0296642-8f4e-4ded-830c-a90cd79092f2":	{
-				"$Position":	{
-					"$x":	-368,
-					"$y":	-33
+					"$x":	352,
+					"$y":	80
 				}
 			},
 			"Runtime-aaf82487-e094-4bde-9a0d-200217a8483d":	{
@@ -1870,9 +1840,9 @@
 			}, {
 				"$Position":	{
 					"$x":	-2031.625,
-					"$y":	-831.25
+					"$y":	-832.9375
 				},
-				"$width":	4130.5625,
+				"$width":	4795.5625,
 				"$height":	1364.25,
 				"$name":	"The Wall"
 			}, {
@@ -1922,7 +1892,7 @@
 				},
 				"$width":	3355,
 				"$height":	999.125,
-				"$name":	"Castle"
+				"$name":	"Bones"
 			}, {
 				"$Position":	{
 					"$x":	-3361.625,
