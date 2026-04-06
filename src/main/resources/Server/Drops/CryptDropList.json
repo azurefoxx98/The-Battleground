@@ -1,0 +1,102 @@
+{
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "PortalKeyBattleGrounds"
+        },
+        "Weight": 30
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "SimpleKey",
+          "QuantityMax": 3
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_Bar_Mithril",
+          "QuantityMin": 2,
+          "QuantityMax": 4
+        }
+      },
+      {
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Diamond"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Emerald"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Sapphire"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Topaz"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Voidstone"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Rock_Gem_Zephyr"
+            }
+          }
+        ],
+        "Weight": 1
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Mithril",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Prisma",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Onyxium",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          }
+        ]
+      }
+    ],
+    "RollsMax": 2
+  }
+}

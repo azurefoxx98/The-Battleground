@@ -1,0 +1,22 @@
+{
+  "Model": "Items/Key.blockymodel",
+  "Texture": "Items/Key.png",
+  "Icon": "Icons/ItemsGenerated/SimpleKey.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      92,
+      145,
+      22.5
+    ],
+    "Translation": [
+      -3,
+      6
+    ]
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Club_Flail",
+  "TranslationProperties": {
+    "Name": "Simple Keys"
+  }
+}

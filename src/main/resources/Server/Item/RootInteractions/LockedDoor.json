@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "ModifyInventory",
+      "ItemToRemove": {
+        "ID": "Ingredient_Fire_Essence",
+        "Quantity": 1,
+        "Id": "SimpleKey"
+      },
+      "Next": "Door",
+      "Failed": {
+        "Type": "SendMessage",
+        "Message": "Door requires Simple Keys"
+      }
+    }
+  ]
+}

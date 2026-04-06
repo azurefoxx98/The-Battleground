@@ -1,0 +1,14 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Goblin_Chest_Small",
+      "State": {
+        "Custom": false,
+        "AllowViewing": true,
+        "Type": "container",
+        "Droplist": "CryptDropList"
+      },
+      "Weight": 100
+    }
+  ]
+}

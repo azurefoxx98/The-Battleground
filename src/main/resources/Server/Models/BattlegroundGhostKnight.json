@@ -4,8 +4,12 @@
   "EyeHeight": 1.5,
   "Particles": [
     {
-      "SystemId": "Praetorian_Summon_Spawn",
-      "Color": "#27f8bc"
+      "SystemId": "Weather_Posion_Smoke",
+      "Color": "#27f8bc",
+      "Scale": 0.3,
+      "PositionOffset": {
+        "Y": -0.3
+      }
     }
   ],
   "Model": "Items/Armors/Knight/ghost_test.blockymodel",

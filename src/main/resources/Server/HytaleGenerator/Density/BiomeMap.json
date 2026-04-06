@@ -23,8 +23,8 @@
 							"$NodeId":	"CellNoise2DDensityNode-485193d4-4a0c-4418-9456-198df5fae159",
 							"Type":	"CellNoise2D",
 							"Skip":	false,
-							"ScaleX":	600,
-							"ScaleZ":	600,
+							"ScaleX":	1200,
+							"ScaleZ":	1200,
 							"Jitter":	0.3,
 							"CellType":	"Distance2Div",
 							"Octaves":	7,
@@ -37,7 +37,7 @@
 					"Lacunarity":	2,
 					"Persistence":	0.5,
 					"Octaves":	3,
-					"Scale":	300,
+					"Scale":	600,
 					"Seed":	"A"
 				}]
 		}],
@@ -49,6 +49,12 @@
 					"$y":	-4635
 				},
 				"$Title":	"[ROOT] [EXPERIMENTAL] Exported Density"
+			},
+			"SumDensityNode-1f7ac215-d80a-41b1-987b-cfef6140181c":	{
+				"$Position":	{
+					"$x":	-2963,
+					"$y":	-4609
+				}
 			},
 			"VectorWarp.Density-5394838a-697c-45fc-bbda-bea14ef44429":	{
 				"$Position":	{
@@ -68,12 +74,6 @@
 					"$y":	-5132
 				}
 			},
-			"SumDensityNode-1f7ac215-d80a-41b1-987b-cfef6140181c":	{
-				"$Position":	{
-					"$x":	-2963,
-					"$y":	-4609
-				}
-			},
 			"SimplexNoise2DDensityNode-b32a59a0-d830-4eae-9694-0fc17c2403cc":	{
 				"$Position":	{
 					"$x":	-2222,
@@ -86,6 +86,6 @@
 		},
 		"$Groups":	[],
 		"$Comments":	[],
-		"$WorkspaceID":	"HytaleGenerator - Biome"
+		"$WorkspaceID":	"HytaleGenerator - Density"
 	}
 }

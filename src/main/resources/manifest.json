@@ -1,0 +1,27 @@
+{
+  "Group": "LadyPaladra",
+  "Name": "TheBattleground",
+  "Version": "0.5.0",
+  "Description": "The Battleground - Ghost Knights possess nearby armor on death",
+  "Authors": [
+    {
+      "Name": "LadyPaladra",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "zbeve",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": [],
+  "Main": "com.zbeve.battlegrounds.BattlegroundsPlugin"
+}

@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "Unbreakable Locked Gate"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Doors"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -22.8,
+      -53.4
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/Temple_Light/Door_Large.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/LockedDoorLarge.png"
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "Door_Large",
+    "Material": "Solid",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Light_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_In.blockyanim"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Light_Close",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Close_Out.blockyanim"
+        },
+        "DoorBlocked": {},
+        "OpenDoorIn": {
+          "HitboxType": "Door_Large_Open_In",
+          "InteractionHitboxType": "Door_Large_Open_In_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Light_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_In.blockyanim"
+        },
+        "OpenDoorOut": {
+          "HitboxType": "Door_Large_Open_Out",
+          "InteractionHitboxType": "Door_Large_Open_Out_Interaction",
+          "InteractionSoundEventId": "SFX_Door_Temple_Light_Open",
+          "CustomModelAnimation": "Blocks/Animations/Door/Door_Open_Out.blockyanim"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Stone",
+    "InteractionHint": "server.interactionHints.openDoor",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "LockedDoor"
+    },
+    "ParticleColor": "#9b9d9a"
+  },
+  "Scale": 0.667,
+  "Icon": "Icons/ItemsGenerated/UnbreakableLockedGate.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Parent": "Rock_Bedrock"
+}

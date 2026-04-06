@@ -12,5 +12,7 @@
   ],
   "Environments": [
     "BattlegroundEnviro"
-  ]
+  ],
+  "MinDistanceFromPlayer": 40,
+  "TargetDistanceFromPlayer": 45
 }
